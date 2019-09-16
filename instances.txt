@@ -1,0 +1,34 @@
+Instance1: Aspen Tree
+
+Attributes:
+colorFoliage : ['green', 'yellow', 'orange', 'red']
+colorStem : ['white', 'black']
+currentHeight : 10
+initialHeight : 1
+hasFlowers : False
+age : 3
+smellDesc : ['woodsy', 'fresh']
+
+Methods:
+calculateYearlyGrowth: (10 - 1)/3 = 3
+changeColorLeaf: colorFoliage = "yellow"
+changeFlowers: hasFlowers = True
+AddScent: Add "musky" to smellDesc
+
+
+Instance2: Rose
+
+Attributes:
+colorFoliage : ['red']
+colorStem : ['green']
+currentHeight : 10
+initialHeight : 5
+hasFlowers : True
+age : 2
+smellDesc : ['floral', 'crisp']
+
+Methods:
+calculateYearlyGrowth: (10 - 5)/2 = 2.5
+changeColorLeaf: colorFoliage = "pink"
+changeFlowers: hasFlowers = False
+AddScent: Add "refreshing" to smellDesc
