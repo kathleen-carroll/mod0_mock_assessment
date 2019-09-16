@@ -1,0 +1,16 @@
+Class: Plant
+
+Attributes:
+colorFoliage (string, array)
+colorStem (string)
+currentHeight (integer)
+initialHeight (integer)
+hasFlowers (boolean)
+age (integer)
+smellDesc (string, array)
+
+Methods:
+calculateYearlyGrowth ((currentHeight-initialHeight)/age)
+changeColorLeaf (changes the colorFoliage)
+changeFlowers (if True, change to False)
+AddScent (add a string describing the scent of the plant to the smellDesc array)
