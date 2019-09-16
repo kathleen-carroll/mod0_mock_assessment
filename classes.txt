@@ -2,7 +2,7 @@ Class: Plant
 
 Attributes:
 colorFoliage (string, array)
-colorStem (string)
+colorStem (string, array)
 currentHeight (integer)
 initialHeight (integer)
 hasFlowers (boolean)
